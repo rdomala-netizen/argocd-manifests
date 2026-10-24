@@ -25,6 +25,10 @@ spec:
       kind: Secret
     - group: networking.k8s.io
       kind: Ingress
+    - group: batch
+      kind: Job
+    - group: batch
+      kind: CronJob
   clusterResourceBlacklist:
     - group: rbac.authorization.k8s.io
       kind: ClusterRole
